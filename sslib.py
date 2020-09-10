@@ -25,7 +25,7 @@ class Dict(dict):
 
 
   def __delattr__(self, key):
-    dict.__selattr__(self, key)
+    dict.__delattr__(self, key)
     dict.__delitem__(self, key)
 
   __delitem__ = __delattr__
